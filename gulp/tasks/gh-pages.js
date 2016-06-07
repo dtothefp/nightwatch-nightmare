@@ -8,8 +8,8 @@ export default function(gulp, plugins, config) {
   const src = addbase(buildDir, '**/*');
 
   const remoteUrl = branch ?
-    `https://dtothefp:${GITHUB_API_KEY}@github.com/dtothefp/speedcurve-test.git` :
-    'git@github.com:dtothefp/speedcurve-test.git';
+    `https://dtothefp:${GITHUB_API_KEY}@github.com/dtothefp/nightwatch-nightmare.git` :
+    'git@github.com:dtothefp/nightwatch-nightmare.git';
 
   return () => {
     return gulp.src(src)
