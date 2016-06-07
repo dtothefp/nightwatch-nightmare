@@ -1,0 +1,14 @@
+---
+title: "Build Boiler"
+---
+
+{% extends layouts('default') %}
+{% from macros('input') import input as inputMacro %}
+
+{% block main %}
+  <h1>Helloooo!!!!</h1>
+  <div data-react></div>
+  {{ inputMacro('givenName', 'text') }}
+  {{ inputMacro('lastName', 'text') }}
+  {{ inputMacro('whatever', 'text') }}
+{% endblock %}
