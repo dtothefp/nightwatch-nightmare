@@ -18,7 +18,6 @@ if (argv.test) {
 }
 
 nightwatch.runner(argv, function(success) {
-  console.log('**********CHILD DONE***********', success);
   if (!success) {
     process.exit(1);
   } else {
