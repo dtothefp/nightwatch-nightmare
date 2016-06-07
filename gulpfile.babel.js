@@ -41,7 +41,6 @@ gulp.task('build', (cb) => {
       'lint',
       'webpack',
       'assemble',
-      'browser-sync',
       cb
     );
   }
