@@ -1,6 +1,5 @@
 import path from 'path';
 import nightwatch from 'nightwatch';
-import merge from 'lodash/merge';
 import isFunction from 'lodash/isFunction';
 import selenium from '../util/selenium';
 

@@ -26,14 +26,25 @@ gulp.task('webpack:main', tasks.webpack);
 gulp.task('webpack', ['webpack:global', 'webpack:main']);
 
 gulp.task('build', (cb) => {
-  sequence(
-    'clean',
-    'lint',
-    'webpack',
-    'assemble',
-    'browser-sync',
-    cb
-  );
+  if (isDev) {
+    sequence(
+      'clean',
+      'lint',
+      'webpack',
+      'assemble',
+      'browser-sync',
+      cb
+    );
+  } else {
+    sequence(
+      'clean',
+      'lint',
+      'webpack',
+      'assemble',
+      'browser-sync',
+      cb
+    );
+  }
 });
 
 gulp.task('default', ['build']);

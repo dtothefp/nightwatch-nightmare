@@ -1,6 +1,4 @@
 import path from 'path';
-import merge from 'lodash/merge';
-import isFunction from 'lodash/isFunction';
 import selenium from '../util/selenium';
 import through2 from 'through2';
 
@@ -57,7 +55,7 @@ export default function(gulp, plugins, config, opts) {
       }, function(cb) {
         start.then(() => {
           cb();
-        })
+        });
       }))
       .pipe(nightwatch(args));
   };

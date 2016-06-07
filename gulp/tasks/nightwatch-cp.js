@@ -1,6 +1,4 @@
 import path from 'path';
-import nightwatch from 'nightwatch';
-import merge from 'lodash/merge';
 import isFunction from 'lodash/isFunction';
 import selenium from '../util/selenium';
 import {spawn} from 'child_process';
@@ -58,7 +56,7 @@ export default function(gulp, plugins, config, opts) {
             path.resolve(__dirname, '..', 'util', 'runner.js'),
             cliArgs
           ], {
-            stdio: 'inherit',
+            stdio: 'inherit'
           });
 
           child.on('close', (code) => {
