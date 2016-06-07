@@ -1,11 +1,1 @@
-{
-  "javascript": {
-    "global": "http://localhost:8000/js/global.js"
-  },
-  "styles": {
-    "global": "http://localhost:8000/css/global.css"
-  },
-  "assets": {
-    "kitten.jpg": "/img/kitten.jpg"
-  }
-}
+{"javascript":{"global":"/speedcurve-test/js/global-eacd92631d6ab8c9e2e5.js"},"styles":{"global":"/speedcurve-test/css/global-eacd92631d6ab8c9e2e5.css"},"assets":{"kitten.jpg":"/speedcurve-test/img/kitten.jpg"}}

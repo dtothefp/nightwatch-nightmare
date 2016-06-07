@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///webpack:///src/scss/main.scss"],"names":[],"mappings":"AAAA;EACE,kEAA4D;EAC5D,aAAa;EACb,cAAc;CACf","file":"css/global.css","sourcesContent":["body {\n  background: url('../img/kitten.jpg') no-repeat center center;\n  width: 100vw;\n  height: 100vh;\n}\n\n\n\n/** WEBPACK FOOTER **\n ** webpack:///src/scss/main.scss\n **/"],"sourceRoot":""}

@@ -1,11 +1,1 @@
-{
-  "javascript": {
-    "main": "http://localhost:8080/js/main.js"
-  },
-  "styles": {},
-  "assets": {
-    "./js/local-main.scss": {
-      "_style": ".content div {\n  background: green;\n}\n"
-    }
-  }
-}
+{"javascript":{"main":"/speedcurve-test/js/main-91c9f002acdc63cd12e6.js"},"styles":{"main":"/speedcurve-test/css/main-91c9f002acdc63cd12e6.css"},"assets":{}}
