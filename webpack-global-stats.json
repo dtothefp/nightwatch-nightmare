@@ -1,0 +1,11 @@
+{
+  "javascript": {
+    "global": "http://localhost:8000/js/global.js"
+  },
+  "styles": {
+    "global": "http://localhost:8000/css/global.css"
+  },
+  "assets": {
+    "kitten.jpg": "/img/kitten.jpg"
+  }
+}
