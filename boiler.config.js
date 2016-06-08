@@ -1,5 +1,5 @@
 export default {
-  bucketBase: 'speedcurve-test',
+  bucketBase: 'nightwatch-nightmare',
   presets: ['base'],
   tasks: ['selenium'],
   addons: [
